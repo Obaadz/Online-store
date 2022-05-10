@@ -1,0 +1,15 @@
+.vr {
+  position: relative;
+}
+
+.vr::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 80%;
+
+  background-color: #3373b5;
+}
