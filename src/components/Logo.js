@@ -8,9 +8,11 @@ const StyledLink = styled.a`
 
 const Logo = () => {
   return (
-    <StyledLink href="/">
-      <img src={logo} alt="Logo" />
-    </StyledLink>
+    <div>
+      <StyledLink href="/">
+        <img src={logo} alt="Logo" />
+      </StyledLink>
+    </div>
   );
 };
 

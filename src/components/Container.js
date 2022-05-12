@@ -7,15 +7,15 @@ const StyledContainer = styled.div`
 
   /* Small */
   @media (min-width: 768px) {
-    width: 750px;
+    width: 768px;
   }
   /* Medium */
   @media (min-width: 992px) {
-    width: 970px;
+    width: 992px;
   }
   /* Large */
   @media (min-width: 1200px) {
-    width: 1170px;
+    width: 1200px;
   }
 `;
 
