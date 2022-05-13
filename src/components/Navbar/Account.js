@@ -14,12 +14,21 @@ const StyledAccount = styled.div`
 const StyledLink = styled.a`
   padding-left: 10px;
   padding-right: 10px;
+
+  @media (max-width: 992px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 const StyledText = styled.span`
   font-family: "Noto Kufi Arabic";
   font-weight: 600;
   margin-right: 10px;
+
+  @media (max-width: 992px) {
+    display: none;
+  }
 `;
 
 const StyledUserIcon = styled(FaRegUserCircle)`

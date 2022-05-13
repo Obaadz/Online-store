@@ -3,16 +3,26 @@ import { IoIosSearch } from "react-icons/io";
 import styled from "styled-components";
 
 const StyledSearch = styled.div`
+  width: 50%;
   margin-left: auto;
   margin-right: 20px;
+
+  @media (max-width: 992px) {
+    width: 90%;
+  }
+`;
+
+const StyledForm = styled.form`
+  display: flex;
+  align-items: center;
 `;
 
 const StyledSearchBar = styled.input`
+  width: 80%;
   font-family: "Noto Kufi Arabic";
   font-size: 0.75rem;
   color: #0e5aa7;
   height: 40px;
-  width: 400px;
   padding-right: 10px;
   border: none;
   border-radius: 5px;
@@ -39,18 +49,17 @@ const Search = () => {
   }
 
   return (
-    <StyledSearch>
-      <form onSubmit={handleSubmit}>
-        <StyledSubmit>
-          <IoIosSearch fontSize="1.2rem" />
-        </StyledSubmit>
+    <StyledSearch dir="rtl">
+      <StyledForm onSubmit={handleSubmit}>
         <StyledSearchBar
           name="search"
           type="text"
           placeholder="ما الذي تبحث عنه"
-          dir="rtl"
         />
-      </form>
+        <StyledSubmit>
+          <IoIosSearch fontSize="1.2rem" />
+        </StyledSubmit>
+      </StyledForm>
     </StyledSearch>
   );
 };
