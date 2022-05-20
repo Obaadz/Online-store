@@ -27,7 +27,8 @@ h2,
 h3,
 h4,
 p,
-ul {
+ul,
+hr {
   margin: 0;
 }
 
