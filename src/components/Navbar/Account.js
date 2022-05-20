@@ -22,7 +22,6 @@ const StyledLink = styled.a`
 `;
 
 const StyledText = styled.span`
-  font-family: "Noto Kufi Arabic";
   font-weight: 600;
   margin-right: 10px;
 
