@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Bottom from "./Bottom";
 import Middle from "./Middle";
+import Top from "./Top";
 
 const StyledNavbar = styled.div`
   font-family: "Noto Kufi Arabic";
@@ -18,6 +19,7 @@ const StyledNavbar = styled.div`
 const Navbar = () => {
   return (
     <StyledNavbar>
+      <Top />
       <Middle />
       <hr />
       <Bottom />
