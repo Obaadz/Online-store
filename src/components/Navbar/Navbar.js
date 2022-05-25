@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ProductsMenu from "./ProductsMenu";
 import Bottom from "./Bottom";
 import Middle from "./Middle";
 import Top from "./Top";
@@ -23,6 +24,7 @@ const Navbar = () => {
       <Middle />
       <hr />
       <Bottom />
+      <ProductsMenu />
     </StyledNavbar>
   );
 };
