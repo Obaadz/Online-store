@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import motorcycle from "../../assets/images/motorcycle.svg";
+import { motorcycle } from "../images";
 
 const StyledNow = styled.div`
   display: flex;

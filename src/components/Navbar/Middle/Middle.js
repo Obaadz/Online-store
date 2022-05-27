@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Cart from "./Cart";
-import Search from "./Search";
-import Container from "../Container";
-import Logo from "../Logo";
 import Account from "./Account";
+import Search from "./Search";
+import Container from "../../Container";
+import Logo from "../../Logo";
 
 const StyledMiddle = styled(Container)`
   display: flex;

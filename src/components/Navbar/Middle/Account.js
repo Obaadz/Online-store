@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FaRegUserCircle } from "react-icons/fa";
-import "./verticalLine.css";
+import "../verticalLine.css";
 
 const StyledAccount = styled.div`
   height: 32px;

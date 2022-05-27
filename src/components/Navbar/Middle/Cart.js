@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { IoCartOutline } from "react-icons/io5";
-import "./verticalLine.css";
+import "../verticalLine.css";
 
 const StyledCart = styled.div`
   height: 32px;

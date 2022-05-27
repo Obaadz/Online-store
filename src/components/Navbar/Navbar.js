@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import ProductsMenu from "./ProductsMenu";
-import Bottom from "./Bottom";
-import Middle from "./Middle";
-import Top from "./Top";
+import ProductsMenu from "./ProductsMenu/ProductsMenu";
+import Bottom from "./Bottom/Bottom";
+import Middle from "./Middle/Middle";
+import Top from "./Top/Top";
 
 const StyledNavbar = styled.div`
   font-family: "Noto Kufi Arabic";
