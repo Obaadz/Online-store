@@ -59,6 +59,7 @@ const StyledInfo = styled.div`
       box-shadow: 1px 2px 6px 0px #d3d2d294;
       opacity: 0;
       transition: all 0.3s;
+      z-index: 1;
       cursor: auto;
 
       img {

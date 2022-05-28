@@ -43,20 +43,18 @@ const StyledBg = styled.div`
 `;
 
 const items = [
-  { id: 1, href: "#drinks", name: "المشروبات" },
-  { id: 2, href: "#tablets", name: "موبايلات، تابلت وأجهزة اليد الذكية" },
-  { id: 3, href: "#electronics", name: "الإلكترونيات والأجهزة المنزلية" },
-  { id: 4, href: "#supermarket", name: "السوبر ماركت" },
-  { id: 5, href: "#food", name: "أطعمة طازجة" },
-  { id: 6, href: "#baby", name: "مستلزمات الأطفال" },
-  { id: 7, href: "#vegetables", name: "الخضار" },
+  { key: 1, href: "#drinks", name: "المشروبات" },
+  { key: 2, href: "#tablets", name: "موبايلات، تابلت وأجهزة اليد الذكية" },
+  { key: 3, href: "#electronics", name: "الإلكترونيات والأجهزة المنزلية" },
+  { key: 4, href: "#supermarket", name: "السوبر ماركت" },
+  { key: 5, href: "#food", name: "أطعمة طازجة" },
+  { key: 6, href: "#baby", name: "مستلزمات الأطفال" },
+  { key: 7, href: "#vegetables", name: "الخضار" },
 ];
 
 const ProductsMenu = () => {
   function renderRemainingItems() {
-    return items.map(({ id, href, name }) => (
-      <MenuItem key={id} href={href} name={name} />
-    ));
+    return items.map((item) => <MenuItem {...item} />);
   }
 
   return (

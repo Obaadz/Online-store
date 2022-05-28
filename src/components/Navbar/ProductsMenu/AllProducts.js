@@ -9,6 +9,15 @@ const StyledList = styled.li`
     align-items: center;
     gap: 5px;
   }
+
+  .left-down {
+    position: relative;
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+  }
+  &:hover .left-down {
+    transform: rotate(90deg);
+  }
 `;
 
 const AllProducts = () => {
@@ -16,7 +25,7 @@ const AllProducts = () => {
     <StyledList className="vertical-line">
       <a href="#all">
         <span>جميع الفئات</span>
-        <AiOutlineDown />
+        <AiOutlineDown className="left-down" />
       </a>
     </StyledList>
   );
