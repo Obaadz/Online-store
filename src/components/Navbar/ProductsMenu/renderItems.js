@@ -22,7 +22,6 @@ const StyledItem = styled.ul`
 `;
 
 function renderItems(products) {
-  console.log(products);
   return products.map(({ name, items }) => (
     <StyledItem key={name}>
       <h3>{name}</h3>
