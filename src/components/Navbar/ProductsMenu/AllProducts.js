@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+// import StyledContainer from "./StyledContainer";
+// import renderItems from "./renderItems";
 import { AiOutlineDown } from "react-icons/ai";
 
 const StyledList = styled.li`
@@ -27,6 +29,7 @@ const AllProducts = () => {
         <span>جميع الفئات</span>
         <AiOutlineDown className="left-down" />
       </a>
+      {/* <StyledContainer>{renderItems(allProducts)}</StyledContainer> */}
     </StyledList>
   );
 };
