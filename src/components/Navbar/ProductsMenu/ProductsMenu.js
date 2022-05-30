@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "../../Container";
-import AllProducts from "./AllProducts";
+import AllCategories from "./AllCategories";
 import MenuItem from "./MenuItem";
 import { items } from "../data";
 import "../verticalLine.css";
@@ -27,6 +27,9 @@ const StyledMenu = styled.menu`
     }
 
     &:hover {
+      & > a {
+        color: rgb(14, 90, 167);
+      }
       background-color: #f7f7f7;
 
       & > div {
@@ -59,7 +62,7 @@ const ProductsMenu = () => {
     <StyledBg>
       <Container>
         <StyledMenu>
-          <AllProducts />
+          <AllCategories allProducts={items} />
           {renderRemainingItems()}
         </StyledMenu>
       </Container>
