@@ -14,7 +14,7 @@ const CategoriesItem = ({
   return (
     <li
       onMouseEnter={handleHoverIn}
-      className={currentCategoryID == data_id && "current"}
+      className={currentCategoryID == data_id ? "current" : undefined}
     >
       <a href={href}>{name}</a>
     </li>
