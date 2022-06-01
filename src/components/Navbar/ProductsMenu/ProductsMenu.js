@@ -43,6 +43,10 @@ const StyledMenu = styled.menu`
     right: 95%;
     background-color: #eee;
   }
+
+  @media (max-width: 992px) {
+    display: none;
+  }
 `;
 
 const StyledBg = styled.div`

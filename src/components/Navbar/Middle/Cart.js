@@ -6,6 +6,10 @@ import "../verticalLine.css";
 const StyledCart = styled.div`
   height: 32px;
   padding-right: 10px;
+
+  @media (max-width: 768px) {
+    margin-right: auto;
+  }
 `;
 
 const StyledCartIcon = styled(IoCartOutline)`

@@ -18,6 +18,10 @@ const StyledTop = styled.div`
   direction: rtl;
   background-color: #234e91;
   user-select: none;
+
+  @media (max-width: 992px) {
+    display: none;
+  }
 `;
 
 const StyledContainer = styled(Container)`

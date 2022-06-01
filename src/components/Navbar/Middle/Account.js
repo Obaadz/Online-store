@@ -9,25 +9,19 @@ const StyledAccount = styled.div`
   align-items: center;
   color: white;
   font-size: 0.75rem;
+  @media (max-width: 992px) {
+    display: none;
+  }
 `;
 
 const StyledLink = styled.a`
   padding-left: 10px;
   padding-right: 10px;
-
-  @media (max-width: 992px) {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 `;
 
 const StyledText = styled.span`
   font-weight: 600;
   margin-right: 10px;
-
-  @media (max-width: 992px) {
-    display: none;
-  }
 `;
 
 const StyledUserIcon = styled(FaRegUserCircle)`

@@ -14,6 +14,14 @@ const StyledDelivery = styled.div`
   div {
     cursor: pointer;
   }
+
+  @media (max-width: 992px) {
+    flex: 1;
+    a {
+      padding-left: 25px;
+      margin-right: auto;
+    }
+  }
 `;
 
 const Location = () => {

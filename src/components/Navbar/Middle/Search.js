@@ -10,6 +10,12 @@ const StyledSearch = styled.div`
   @media (max-width: 992px) {
     width: 90%;
   }
+
+  @media (max-width: 768px) {
+    order: 1;
+    width: 100%;
+    margin-right: 0;
+  }
 `;
 
 const StyledForm = styled.form`
@@ -28,7 +34,9 @@ const StyledSearchBar = styled.input`
   border-radius: 5px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  ::placeholder {
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 
