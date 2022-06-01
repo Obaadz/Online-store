@@ -41,10 +41,11 @@ const StyledInfo = styled.div`
 
     span {
       font-weight: 600;
-      margin-right: 10px;
+      padding-right: 10px;
     }
 
-    &:hover > div {
+    & > span:hover ~ div,
+    & > img:hover ~ div {
       visibility: visible;
       opacity: 1;
       top: 40px;
