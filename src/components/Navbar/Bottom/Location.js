@@ -8,6 +8,7 @@ const StyledDelivery = styled.div`
   font-size: 0.8rem;
   span,
   a {
+    color: white;
     font-weight: 600;
   }
 

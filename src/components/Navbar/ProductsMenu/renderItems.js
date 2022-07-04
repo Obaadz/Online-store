@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledItem = styled.ul`
-  font-size: 0.75rem;
-
   h3 {
+    font-size: 0.8rem;
     color: rgb(77, 77, 77);
     font-weight: 600;
     margin-bottom: 10px;

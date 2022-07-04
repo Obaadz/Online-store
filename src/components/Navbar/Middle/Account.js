@@ -17,6 +17,10 @@ const StyledAccount = styled.div`
 const StyledLink = styled.a`
   padding-left: 10px;
   padding-right: 10px;
+
+  &:hover {
+    color: white;
+  }
 `;
 
 const StyledText = styled.span`

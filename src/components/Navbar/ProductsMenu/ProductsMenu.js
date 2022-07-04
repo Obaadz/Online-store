@@ -11,6 +11,7 @@ const StyledMenu = styled.menu`
   font-size: 0.8rem;
   display: flex;
   align-items: center;
+  z-index: 99;
 
   & > li {
     padding: 0.9rem 0;

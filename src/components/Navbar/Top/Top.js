@@ -34,6 +34,8 @@ const StyledContainer = styled(Container)`
 const StyledInfo = styled.div`
   display: flex;
   gap: 20px;
+  z-index: 100;
+
   & > div {
     position: relative;
     font-size: 0.7rem;
@@ -42,6 +44,10 @@ const StyledInfo = styled.div`
     span {
       font-weight: 600;
       padding-right: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
     }
 
     & > span:hover ~ div,
